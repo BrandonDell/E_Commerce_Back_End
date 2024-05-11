@@ -14,11 +14,14 @@ This Express.js API is used with Sequelize to interact with a PostgreSQL databas
 MIT
 
 ## Installation 
-Clone the respository to the Github listed below. 
-Postgres: run schema.js with \i schema.js
-Command Line: npm run seed;
-Command Line: npm start;
-Command Line Installation: node server.js;
+-Clone the respository to the Github listed below. 
+-Postgres: psql -U postgres
+-Postgres: run schema.js:  \i db/schema.js
+-Postrgres: quit \q
+-Command Line: npm run seed;
+-Command Line: npm start;
+-App Listening on port 3001
+-Command Line Installation: node server.js;
 
 
 ## Run  
@@ -32,7 +35,7 @@ GitHub Employee_Tracker_SQL Project:
 
 GitHub Repository Link: https://github.com/BrandonDell/E_Commerce_Back_End
 
-Google Drive Linke: 
+Google Drive Link: https://drive.google.com/file/d/1i-wsjD3Z2535LTNtTIPl4r2DaqZ0kDU2/view
 
 If you have any further questions please feel free to email me at bdellcioppia@gmail.com
 
