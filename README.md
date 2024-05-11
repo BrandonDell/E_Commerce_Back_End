@@ -5,7 +5,7 @@ This application will help you organize a data base with limitless categories, p
 The motivation to create this database is to build the back end for an e-commerce site which allows businesses and consumers to easily engage in online buying and selling of many different products.
 
 ## What does it solve and provide?
-
+This database will help an e-commerce company mantain and organzie product and categories to offer potentail customers. 
 
 ## Features
 This Express.js API is used with Sequelize to interact with a PostgreSQL database.
