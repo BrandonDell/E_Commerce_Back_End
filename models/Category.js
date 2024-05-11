@@ -1,7 +1,9 @@
 const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection.js');
+// const Product = require('./Product');
+// const Tag = require('./Tag');
 
-class Category extends Model {}
+class Category extends Model { }
 
 Category.init(
   {
@@ -26,11 +28,6 @@ Category.init(
   }
 );
 
-module.exports = Category;
-
-// const Product = require('./Product');
-// const Tag = require('./Tag');
-
 // Category.hasMany(Product, {
 //   foreignKey: 'category_id',
 //   onDelete: 'CASCADE',
@@ -39,3 +36,8 @@ module.exports = Category;
 //   through: 'category_tag',
 //   foreignKey: 'category_id',
 // });
+
+module.exports = Category;
+
+
+
